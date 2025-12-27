@@ -31,15 +31,13 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-{% load static %}
 
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <title>Book Cover</title>
-  
 <style>
-  
 body, html {
     margin: 0;
     padding: 0;
@@ -94,9 +92,7 @@ body, html {
 }
 
 </style>
-
 </head>
-
 <body>
     <div class="cover">
         <img src="aaa.jpg" class="bg-img" alt="Background">
@@ -107,7 +103,6 @@ body, html {
         </div>
     </div>
 </body>
-
 </html>
 
 
